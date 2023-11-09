@@ -1,0 +1,35 @@
+/*****************layout******************/
+body{ 
+    background-color: rgb(0, 0, 0);
+
+}
+h1{
+    color:purple;
+    font-size: 60px;
+    font-style:oblique;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+h2{ color:aliceblue;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+
+}
+h3{
+    color:blue;
+    font-size: 20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif 
+    
+}
+p{
+    color:rgb(94, 87, 243);
+    font-style: bold;
+    font-size: 20px;
+    font-family: 'Kenia', sans-serif;
+    
+
+}
+ul{
+    color:aqua;
+    font-family: 'Kenia', sans-serif;
+}
+/********************************layout**************************/
