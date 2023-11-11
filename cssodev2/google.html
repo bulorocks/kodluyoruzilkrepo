@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        #search-container {
+            text-align: center;
+        }
+
+        #search-box {
+            padding: 10px;
+            width: 300px;
+            font-size: 16px;
+        }
+
+        #search-button {
+            padding: 10px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    
+    <div id="search-container">
+        <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="Google Logo">
+        <form action="https://www.google.com/search" method="GET" target="_blank">
+            <input type="text" name="q" id="search-box" placeholder="Search Google...">
+            <br>
+            <input type="submit" value="Google Search" id="search-button">
+            <input type="submit" value="I'm Feeling Lucky" id="search-button">
+        </form>
+    </div>
+</body>
+</html>
